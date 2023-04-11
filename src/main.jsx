@@ -10,6 +10,7 @@ import Home from './Components/Home/Home';
 import Main from './Components/Layout/Main';
 import ReviewOrder from './Components/Review-Order/ReviewOrder';
 import NotFound404 from './Components/NotFound404/NotFound404';
+import Grandpa from './Components/Grandpa/Grandpa';
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path:'review',
         element: <ReviewOrder></ReviewOrder>
+      },
+      {
+        path: 'grandpa',
+        element: <Grandpa></Grandpa>
       },
       {
         path: '*',

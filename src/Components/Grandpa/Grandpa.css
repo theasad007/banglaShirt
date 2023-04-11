@@ -1,0 +1,28 @@
+.family {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.grandpa, .family div {
+    border: 2px solid salmon;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+h2 {
+    margin: 5px 0;
+}
+p {
+    margin: 5px 0;
+}
+div {
+    box-sizing: border-box;
+}
+.grandpa-tree div {
+    margin-bottom: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
