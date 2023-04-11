@@ -1,0 +1,15 @@
+.home-wrap {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 30px;
+}
+.shop-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.cart-wrap {
+    background: lightpink;
+    padding: 20px;
+    border-radius: 6px;
+}
