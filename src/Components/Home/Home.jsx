@@ -29,6 +29,7 @@ const Home = () => {
         console.log(_id)
     }
 
+
     return (
         <div className='home-wrap'>
             <div className="shop-wrap">
